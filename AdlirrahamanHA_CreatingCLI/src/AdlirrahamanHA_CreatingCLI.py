@@ -47,11 +47,6 @@ def toTxt():
     daftarFile()
     inputFile = input("masukan nama file = ")
 
-    # with open(inputFile) as fh:
-    #     for line in fh:
-    #         description = line.strip()
-    #
-    #         dict1.append(description)
     f = open(inputFile, 'r')
 
     save_path = input("masukan directory = ")
